@@ -16,7 +16,7 @@ public class ArbolVisual extends javax.swing.JFrame {
 
     Nodo arbol = null;
     
-    int radio = 40;
+    int radio = 40;    
     /**
      * Creates new form ArbolVisual
      * @param arbol
@@ -24,6 +24,7 @@ public class ArbolVisual extends javax.swing.JFrame {
     public ArbolVisual(Nodo arbol) {
         this.arbol = arbol;
         initComponents();
+        
     }
     
     @Override
@@ -48,11 +49,11 @@ public class ArbolVisual extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
+            .addGap(0, 500, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 533, Short.MAX_VALUE)
+            .addGap(0, 340, Short.MAX_VALUE)
         );
 
         pack();

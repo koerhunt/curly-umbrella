@@ -12,8 +12,8 @@ public class Nodo{
   private Nodo izq = null;
   private Nodo cen = null;
   private Nodo der = null;
-
-
+  
+  
   //Dato
   private int dato;
 
